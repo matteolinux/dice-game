@@ -5,6 +5,12 @@
     overflow-x: hidden;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #6e0456;
 }
@@ -12,15 +18,15 @@ body {
 h1 {
     color: aliceblue;
     text-align: center;
-    font-size: 4.5rem;
-    padding-top: 1em;
+    font-size: 3.5rem;
     font-style: italic;
+    padding-top: 1em;
 }
 
 h2 {
     color: aliceblue;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1em;
     font-size: 2rem;
 }
@@ -29,7 +35,11 @@ h3 {
     color: aliceblue;
     text-align: center;
     font-size: 2rem;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+img {
+    width: 9em;
 }
 
 .container-1 {
@@ -45,7 +55,7 @@ button {
     background-color: #dc5cbe;
     border: 0;
     color: aliceblue;
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 1.5em;
 }
 
@@ -64,10 +74,12 @@ button {
 
 .container-1 {
     text-align: center;
+    height: 50vh;
 }
 
 .container-2 {
     text-align: center;
+    height: 50vh;
 }
 
 @media (max-width: 414px) {
